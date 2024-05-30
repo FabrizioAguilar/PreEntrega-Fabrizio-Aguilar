@@ -3,101 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Galeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/icono/TRZ miami.webp" type="image/x-icon">
     <link rel="stylesheet" href="../style/style.css">
 </head>
-<body>
+<body class="fondo">
     <header>
-        <a href=""><img src="../img/icono/trzmiami.webp" alt=""></a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./sobrenosotros.html">Sobre nosotros</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./ubicación.html">Ubicación</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../img/icono/trzmiami.webp" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ubicación.html">Ubicacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>The Ritz-Carlton Coconut Grove, Miami</h2>
-            <form action="" class="reservaderecha">
-                <input type="button" value="Reserva">
-            </form>
-        </section>
-        <section>
-                <h2>Fotos y Videos</h2>      
-            <article>
-                <h3>Habitaciones de invitados</h3>
-                <div agrupar>
-                    <img src="../img/galeria/habitacióndeinvitados/vistabaño1.avif" alt="vistaalbañodeinvitados">
-                    <img src="../img/galeria/habitacióndeinvitados/vistabaño2.avif" alt="vistaalbañodeinvitados">
-                    <img src="../img/galeria/habitacióndeinvitados/vistahabitacion1.avif" alt="vistaasaladeinvitados">
-                </div>
+        <section class="containter-fluid">
+            <div class="d-flex justify-content-between mt-5">
                 <div>
-                    <img src="../img/galeria/habitacióndeinvitados/vistahabitación2.avif" alt="vistahabitación">
-                    <img src="../img/galeria/habitacióndeinvitados/vistahabitación3.jfif" alt="vistahabitación">
-                    <img src="../img/galeria/habitacióndeinvitados/vistamuebles.webp" alt="vistamueblesdehabitación">
+                    <h1>The Ritz-Carlton Coconut Grove, Miami</h1>
                 </div>
-            </article>
-            <article>
-                <h3>Suites</h3>
-                <div>
-                    <img src="../img/galeria/suites/vistabaño1.avif" alt="vistaalbañodelasuite">
-                    <img src="../img/galeria/suites/vistabaño2.jfif" alt="vistaalbañodelasuite">
-                    <img src="../img/galeria/suites/vistasalon1.avif" alt="vistalsalondelasuite">
+                <div class="estilo">
+                    <a href="">Reserve</a>
                 </div>
-                <div>
-                    <img src="../img/galeria/suites/vistasalon2.avif" alt="vistaalsalonprincipal">
-                    <img src="../img/galeria/suites/vistasalon3.avif" alt="vistaalsalonprincipal">
-                    <img src="../img/galeria/suites/vistasuite.jfif" alt="vistaalsalonprincipal">
             </div>
-            </article>
-            <article>
-                <h3>comida</h3>
-                <div>
-                    <img src="../img/galeria/comida/comedor1.webp" alt="">
-                    <img src="../img/galeria/comida/comedor2.avif" alt="">
-                    <img src="../img/galeria/comida/comedor3.webp" alt="">
-                    <div>
-                        <img src="../img/galeria/comida/suitecomedor.jfif" alt="">
-                        <img src="../img/galeria/comida/bar.jfif" alt="">
-                    </div>
-                </div>
-            </article>
-            <article>
-                <h3>Recreación y fitness</h3>
-                <div>
-                    <img src="../img/galeria/recreaciónyfitness/pileta1.avif" alt="">
-                    <img src="../img/galeria/recreaciónyfitness/pileta2.avif" alt="">
-                    <img src="../img/galeria/recreaciónyfitness/pileta3.jfif" alt="">
-                </div>
-            </article>
-            <article>
-                <h3>Eventos y Reuniones</h3>
-                <div>
-                    <img src="../img/galeria/eventosyreuniones/eventos1.avif" alt="">
-                    <img src="../img/galeria/eventosyreuniones/eventos2.avif" alt="">
-                    <img src="../img/galeria/eventosyreuniones/eventos3.jfif" alt="">
-                    <div>
-                        <img src="../img/galeria/eventosyreuniones/eventos4.jfif" alt="">
-                    </div>
-                </div>
-            </article>
         </section>
-        <section>
-
+        <section class="container imgtamaño ">
+            <div class="text-center mt-5 mb-5">
+                <h2>Fotos y videos</h2>
+            </div>
+            <article>
+                <div class="row">
+                    <div class="mt-5 mb-3">
+                        <h3>Habitaciones de invitados</h3>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/habitacióndeinvitados/vistabaño1.avif" alt="vista al baño ">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/habitacióndeinvitados/vistabaño2.avif" alt="vista a la bañadera y espejo">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/habitacióndeinvitados/vistahabitacion1.avif" alt="vista a dos camas">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/habitacióndeinvitados/vistahabitación2.avif" alt="vista a una cama con muebles alrededor">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/habitacióndeinvitados/vistahabitación3.jfif" alt="vista al balcon de un dormitorio">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/habitacióndeinvitados/vistamuebles.webp" alt="vista al balcon con tres sillas">
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row">
+                    <div class="mt-5 mb-3">
+                        <h3>Suites</h3>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/suites/vistabaño1.avif" alt="vista al lavamanos de una suite">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/suites/vistabaño2.jfif" alt="vista amplia al baño">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/suites/vistasalon1.avif" alt="vista amplia del living">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/suites/vistasalon2.avif" alt="vista amplia del living">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/suites/vistasalon3.avif" alt="vista amplia del living">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/suites/vistasuite.jfif" alt="vista al linving hacia la ventana">
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row">
+                    <div class="mt-5 mb-3">
+                        <h3>Comidas</h3>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/comida/bar.jfif" alt="vista al bar del hotel">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/comida/comedor1.webp" alt="vista a un comedor al aire libre y mucha vegetacion">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/comida/comedor2.avif" alt="vista a comedor interior">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/comida/comedor3.webp" alt="vista a un comedor semi aire libre y mucha vegetacion">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/comida/suitecomedor.jfif" alt="vista a comedor privado">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/comida/bar.jfif" alt="vista al bar del hotel">
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row">
+                    <div class="mt-5 mb-3">
+                        <h3>Recreaciones</h3>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/recreaciónyfitness/pileta1.avif" alt="vista a la piscina">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/recreaciónyfitness/pileta2.avif" alt="vista a la piscina">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/recreaciónyfitness/pileta3.jfif" alt="vista a la piscina">
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row mb-5">
+                    <div class="mt-5 mb-3">
+                        <h3>Eventos y reuniones</h3>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/eventosyreuniones/eventos1.avif" alt="vista a salon de eventos al aire libre">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/eventosyreuniones/eventos2.avif" alt="vista a salon de eventos en el interior del hotel">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <img src="../img/galeria/eventosyreuniones/eventos4.jfif" alt="vista a un bar y mesas">
+                    </div>
+                    
+                </div>
+            </article>
         </section>
     </main>
     <footer>
-        <p>2024-Todos los derechos reservados.</p>
-        <form action="" method="post">
-            <input type="button" value="Facebook">
-            <input type="button" value="X">
-            <input type="button" value="Instagram">
-        </form>
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-sm text-center">
+                    <p>2024-Todos los derechos reservados.</p>
+                </div>
+                <div class="col-sm text-center">
+                    <a class="color1" href="https://www.instagram.com/ritzcarltoncoconutgrove/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a class="color2" href="https://www.facebook.com/ritzcarltoncoconutgrove/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://x.com/RitzCarlton" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    
+                </div>
+            </div>
+        </div>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
