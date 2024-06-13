@@ -1,0 +1,15 @@
+/*pages contacto*/
+
+.botonstyle{
+    @include letras();
+    color:$colorTexto;
+    border: none;
+    background-color: #1f53c5;
+    padding: 15px;
+    font-size: 15px;
+    }
+    .fondoform{
+    padding: 25px;
+    background-color:#24303c;
+    color:$colorTexto;
+    }

@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+  }
+
+/*Header*/
+header{
+    img{
+        width: 200px;
+        margin-left: 20px;
+    }
+    li{
+        margin-right: 20px;
+    }
+}
+
+/*footer*/
+footer{
+    background-color: #E0E0E0;
+    a{
+        margin-left: 20px;
+    }
+    ion-icon{
+        font-size: 1.5rem;
+}
+    .color1{
+    color: brown;
+   }
+   .color2{
+    color: black;
+   }
+}
